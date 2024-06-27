@@ -23,7 +23,6 @@
                 <a class="nav-link {{ request()->is('gallery') ? 'active' : '' }}" href="/gallery">Gallery</a>
                 <a class="nav-link {{ request()->is('event') ? 'active' : '' }}" href="/event">Event</a>
                 <a class="nav-link {{ request()->is('donation') ? 'active' : '' }}" href="/donation">Donation</a>
-                <a class="nav-link {{ request()->is('shop') ? 'active' : '' }}" href="/shop">Shop</a>
             </div>
             <button type="button" class="btn btn-primary">Login</button>
             <button type="button" class="btn btn-outline-success mx-3">Register</button>
